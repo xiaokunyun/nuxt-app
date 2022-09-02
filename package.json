@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "bootstrap": "pnpm install --shamefully-hoist",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "dev-o": "nuxt dev -o",
@@ -11,6 +12,11 @@
   "devDependencies": {
     "nuxt": "3.0.0-rc.8",
     "nuxt-windicss": "^2.5.1",
-    "sass": "^1.54.8"
+    "sass": "^1.54.8",
+    "unplugin-icons": "^0.14.8"
+  },
+  "dependencies": {
+    "@css-render/vue3-ssr": "^0.15.11",
+    "naive-ui": "^2.33.2"
   }
 }
